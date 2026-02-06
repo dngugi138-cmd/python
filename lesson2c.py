@@ -21,9 +21,16 @@ print('===========================')
 player = {
     'name' : 'Messi',
     'age' : 40,
-    'teams' : ['PSG', 'Barcelona', 'Argentina']
+    'teams' : ['PSG', 'Barcelona', 'Argentina'],
+    'more' : {
+        'children' : 3,
+        'residence' : 'US',
+        'phone' : (25489531, 254793216, 25415761)
+    }
 }
 # the second team he played for
 print(player['teams'][1])
 
+#print messi' second no
+print(player['more']['phone'][1])
 # research on if ... else statements in python
